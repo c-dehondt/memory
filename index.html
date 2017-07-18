@@ -1,9 +1,9 @@
-<!doctype html>
+ <!doctype html>
 <html class="no-js" lang="">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>pierre feuille ciseaux</title>
+        <title>Memory</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -22,79 +22,75 @@
 
     <body>
       <main class="container">
+        <div class="row justify-content-around">
 
-        <h1>memory</h1>
+          <h1 class="text-center col-12">Mon memory</h1>
+          <div class="text-center">
+            <button class="btn btn-warning shake-slow shake-constant shake-constant--hover" type="button" name="button" onclick="jouer()">jouer au jeu</button>
+            <button class="btn btn-secondary" type="button" name="button" onclick="reset()">rejouer</button>
+          </div>
 
+          <h2 class="col-12 text-center">nombre d'essai:</h2>
 
-        <div class="row justify-content-around align-items-center ">
+          <div class="infoJoueur col-12 text-center" id="essai">10</div>
+          <div class="infoJoueur" id="pseudo"></div>
+
+        </div>
+        <div id="test" class="row justify-content-around">
 <!-- ********************************************choix *********************************** -->
-        <figure class="col-3 col-md-3 col-lg-2">
-          <img src="" alt="carte du jeu" class="carte img-thumbnail col-12">
-        </figure>
+        <div class="col-5 col-md-4 col-lg-2 dos ">
+          <img src="" alt="carte du jeu" class="carte">
+        </div>
 
-        <figure class="col-3 col-md-3 col-lg-2">
-          <img src="" alt="carte du jeu" class="carte img-thumbnail col-12">
-        </figure>
+        <div class="col-5 col-md-4 col-lg-2 dos thumbnail">
+          <img src="" alt="carte du jeu" class="carte ">
+        </div>
 
-        <figure class="col-3 col-md-3 col-lg-2">
-          <img src="" alt="carte du jeu" class="carte img-thumbnail col-12">
-        </figure>
+        <div class="col-5 col-md-4 col-lg-2 dos thumbnail">
+          <img src="" alt="carte du jeu" class="carte ">
+        </div>
 
-        <figure class="col-3 col-md-3 col-lg-2">
-          <img src="" alt="carte du jeu" class="carte img-thumbnail col-12">
-        </figure>
+        <div class="col-5 col-md-4 col-lg-2 dos thumbnail">
+          <img src="" alt="carte du jeu" class="carte ">
+        </div>
 
-        <figure class="col-3 col-md-3 col-lg-2">
-          <img src="" alt="carte du jeu" class="carte img-thumbnail col-12">
-        </figure>
+        <div class="col-5 col-md-4 col-lg-2 dos thumbnail">
+          <img src="" alt="carte du jeu" class="carte ">
+        </div>
 
-        <figure class="col-3 col-md-3 col-lg-2">
-          <img src="" alt="carte du jeu" class="carte img-thumbnail col-12">
-        </figure>
+        <div class="col-5 col-md-4 col-lg-2 dos thumbnail">
+          <img src="" alt="carte du jeu" class="carte ">
+        </div>
 
-        <figure class="col-3 col-md-3 col-lg-2">
-          <img src="" alt="carte du jeu" class="carte img-thumbnail col-12">
-        </figure>
+        <div class="col-5 col-md-4 col-lg-2 dos thumbnail">
+          <img src="" alt="carte du jeu" class="carte">
+        </div>
 
-        <figure class="col-3 col-md-3 col-lg-2">
-          <img src="" alt="carte du jeu" class="carte img-thumbnail col-12">
-        </figure>
+        <div class="col-5 col-md-4 col-lg-2 dos thumbnail">
+          <img src="" alt="carte du jeu" class="carte ">
+        </div>
 
-        <figure class="col-3 col-md-3 col-lg-2">
-          <img src="" alt="carte du jeu" class="carte carte img-thumbnail col-12">
-        </figure>
+        <div class="col-5 col-md-4 col-lg-2 dos thumbnail">
+          <img src="" alt="carte du jeu" class="carte ">
+        </div>
 
-        <figure class="col-3 col-md-3 col-lg-2">
-          <img src="" alt="carte du jeu" class="carte img-thumbnail col-12">
-        </figure>
+        <div class="col-5 col-md-4 col-lg-2 dos thumbnail">
+          <img src="" alt="carte du jeu" class="carte ">
+        </div>
 
-        <figure class="col-3 col-md-3 col-lg-2">
-          <img src="" alt="carte du jeu" class="carte img-thumbnail col-12">
-        </figure>
+        <div class="col-5 col-md-4 col-lg-2 dos thumbnail">
+          <img src="" alt="carte du jeu" class="carte ">
+        </div>
 
-        <figure class="col-3 col-md-3 col-lg-2">
-          <img src="" alt="carte du jeu" class="carte img-thumbnail col-12">
-        </figure>
+        <div class="col-5 col-md-4 col-lg-2 dos thumbnail">
+          <img src="" alt="carte du jeu" class="carte ">
+        </div>
 
-        <figure class="col-3 col-md-3 col-lg-2">
-          <img src="" alt="carte du jeu" class="carte img-thumbnail col-12">
-        </figure>
-
-        <figure class="col-3 col-md-3 col-lg-2">
-          <img src="" alt="carte du jeu" class="carte img-thumbnail col-12">
-        </figure>
-
-        <figure class="col-3 col-md-3 col-lg-2">
-          <img src="" alt="carte du jeu" class="carte img-thumbnail col-12">
-        </figure>
-
-        <figure class="col-3 col-md-3 col-lg-2">
-          <img src="" alt="carte du jeu" class="carte img-thumbnail col-12">
-        </figure>
 
 <!-- **************************************fin choix ********************************** -->
         </div>
       </main>
+
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
